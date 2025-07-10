@@ -11,7 +11,8 @@
 }
 
 .body{
-    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(1,1,1,0.5),
+    5px 5px 5px rgb(1,1,1,0.5);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,7 +32,7 @@
 
 #btnCl:hover{
     cursor: pointer;
-    background-color: rgb(175, 218, 240);
+    background-color: whitesmoke;
     color:rgb(13, 13, 14)
 }
 
