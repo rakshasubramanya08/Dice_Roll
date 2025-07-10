@@ -21,6 +21,17 @@
     margin: 20px auto;
     width: 250px;
     height: 300px;
-
-
+    padding: 25px;
 }
+
+#btnCl{
+    background-color: black;
+    color: white;
+}
+
+#btnCl:hover{
+    cursor: pointer;
+    background-color: rgb(175, 218, 240);
+    color:rgb(13, 13, 14)
+}
+
