@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(1,1,1,0.5),
+    5px 5px 5px rgb(1,1,1,0.5);
+    position: absolute;
+    justify-content: center;
+    margin: 20px auto;
+    /* margin-left: 190px; */
+    left: 35%;
+}
