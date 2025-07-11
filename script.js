@@ -6,14 +6,20 @@ btnV.addEventListener('click',()=>{
 
 })
 
-let DiceList = [];
+let diceList = [];
 
 function diceRoll() {
   const rollResult = Math.floor(Math.random() * 6) + 1;
   const diceFace = getDiceFace(rollResult);
   diceV.innerHTML = diceFace;
-  List.push(rollResult);
+  diceList.push(rollResult);
   updateRollHistory();
 }
 
+function updateRollHistory() {
+  rollV.innerHTML = "";
+  for (let i = 0; i < diceList.length; i++) {
 
+
+}
+}
